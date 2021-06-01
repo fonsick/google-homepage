@@ -1,6 +1,7 @@
 html {
     min-height: 100%;
     position: relative;
+    font-size: 62.5%;
 }
 
 body {
@@ -144,7 +145,7 @@ a:hover {
 
 
 .Country-footer {
-    display: block;
+    display: flex;
     background-color: #f2f2f2;
     border-bottom: 1px solid #dadce0;
     left: 0;
@@ -198,3 +199,13 @@ a:hover {
 .links:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 660px) {
+    .DwnBarContainer {
+        flex-direction: column;
+    }
+
+       .search {
+        width: 80%;
+    }
+}    
