@@ -1,0 +1,189 @@
+body {
+    margin: 0px;
+}
+.headerbox {
+    display: flex;
+    width: auto;
+    height: 43px;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    position: 0;
+    box-sizing: border-box;
+    margin: 8px 10px;
+    flex: 0 0 auto; 
+    }
+
+a.headerbox {
+    font-family: arial,sans-serif;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+    text-decoration: none;
+    line-height: normal;
+    font-weight: 10;
+    margin-left: 5px;
+    }
+    
+a.headerbox:hover {
+    text-decoration:underline;
+    }   
+  
+.AppsButton {
+    display: flex;
+    align-items: center;
+    margin: 0px 4px 0px 17px;
+}
+
+.Acceder {
+    padding:9px 23px;
+    background-color: #1A73E8;
+    margin: 0px 8px 0px 16px;
+    font: arial,sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0.25px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-decoration: none;
+    }
+
+.Acceder:hover {
+    background: #4683ea;
+    box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);
+    text-decoration: none;
+    }
+  
+.img-Google {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 28px;
+    margin-bottom: 26px;
+    }
+
+div {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+    
+.search {
+    display: block;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 42px;
+    margin: 0 auto;
+    width: 535px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    font-size: 16px;
+    }
+
+.search:hover {
+    border-color: rgba(223,225,229,0);
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    }
+
+input[type='text'] {
+    background-image: url(Images/search.png);
+    background-position: 14px;
+    background-repeat: no-repeat;
+    padding-inline-start: 45px;
+    }
+
+.DwBtContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 18px 0px 0px;
+    }
+
+.Buttons {
+    justify-content: center;
+    align-content: center;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 6px;
+    padding: 0px 16px;
+    height: 36px;
+    min-width: 54px;
+    text-decoration: none;
+    }
+
+.Buttons:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+a {
+    color: #3c4043;
+    text-decoration: none;
+ }
+
+ a:hover {
+     text-decoration: none;
+ }
+
+ .Colombia-footer {
+    padding: 15px 30px;
+    background: #f2f2f2;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    margin-top: 257px;
+    padding: 16px 30px;
+    width: auto;    
+}
+
+.footer {
+    display:flex;
+    background: #f2f2f2;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    height:15px;
+    width: auto;  
+    text-decoration: none;
+    padding: 14px 0px;
+    justify-content: space-between;
+    }
+
+a.footer {
+    display:flex;
+    padding: 0px 20px;
+    background: #f2f2f2;
+    font-size: 14px;
+    color: #70757a;
+    text-decoration: none;
+    margin: 0px;
+    align-content: center;
+    }
+
+a.footer:hover {
+    text-decoration: underline;
+    }
+
+div.links1 {
+    display: inline-flex;
+    align-self: center;
+    justify-content:space-around;
+    text-decoration: none;
+    padding: 15px;
+}
+
+div.links2 {
+    display:flex;
+    justify-content: space-around;
+    align-self: center;
+    text-decoration: none;    
+    padding: 15px;
+}
+
