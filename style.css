@@ -61,19 +61,21 @@ a.headerbox:hover {
     text-decoration: none;
     }
   
+   
+
 .img-Google {
     display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-top: 28px;
-    margin-bottom: 26px;
-    }
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 120px 0px 26px 0px;
+}
 
 div {
     font-family: arial,sans-serif;
     font-size: 14px;
 }
-    
+
 .search {
     display: block;
     background: #fff;
@@ -87,10 +89,10 @@ div {
     align-content: center;
     justify-content: center;
     font-size: 16px;
-    }
+}
 
 .search:hover {
-    border-color: rgba(223,225,229,0);
+    border-color: #fff;
     box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
 }
 
@@ -99,6 +101,12 @@ input[type='text'] {
     background-position: 14px;
     background-repeat: no-repeat;
     padding-inline-start: 45px;
+    outline: none;
+    text-rendering: auto;
+    color: rgba(0,0,0,.87);
+    cursor:auto;
+   
+    
 }
 
 .DwBtContainer {
