@@ -9,7 +9,7 @@ body {
     margin-bottom: 40px;
 }
 
-.headerbox {
+.navbar {
     display: flex;
     width: auto;
     height: 43px;
@@ -22,7 +22,7 @@ body {
     flex: 0 0 auto; 
 }
 
-a.headerbox {
+a.navbar {
     font-family: arial,sans-serif;
     color: rgba(0,0,0,0.87);
     font-size: 13px;
@@ -61,8 +61,6 @@ a.headerbox:hover {
     text-decoration: none;
     }
   
-   
-
 .img-Google {
     display: flex;
     flex-direction: column;
@@ -104,9 +102,7 @@ input[type='text'] {
     outline: none;
     text-rendering: auto;
     color: rgba(0,0,0,.87);
-    cursor:auto;
-   
-    
+    cursor:auto; 
 }
 
 .DwBtContainer {
@@ -117,7 +113,7 @@ input[type='text'] {
     padding: 18px 0px 0px;
     box-sizing: border-box;
     position: relative;
-  }
+}
 
 .Buttons {
     justify-content: center;
@@ -149,8 +145,7 @@ a {
 
 a:hover {
      text-decoration: none;
- }
-
+}
 
 .Country-footer {
     display: flex;
